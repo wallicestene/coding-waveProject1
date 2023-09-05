@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    position: relative;
+}
+.main .bg-image{
+    height: 100vh;
+    width: 100%;
+}
+.main .main-details{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFFFFF;
+    /* color: #e76f51
+    #e9c46a
+    ; */
+    font-family: 'Poppins', sans-serif;
+}
+.main .main-details h1{
+    font-size: clamp(1rem, 7vw ,1rem);
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.main .main-details h2{
+    font-weight: normal ;
+    font-size: 2rem;
+    word-spacing: -4px;
+    letter-spacing: 1px;
+}
+.main .main-details p{
+    font-weight: normal ;
+    font-size: normal;
+    letter-spacing: 1px;
+}
+.main .main-details button{
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 11px;
+    margin: 20px 0;
+    background: #e76f51;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
+}
