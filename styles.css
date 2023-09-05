@@ -20,9 +20,6 @@ body::-webkit-scrollbar{
     transform: translate(-50%, -50%);
     text-align: center;
     color: #FFFFFF;
-    /* color: #e76f51
-    #e9c46a
-    ; */
     font-family: 'Poppins', sans-serif;
 }
 .main .main-details h1{
