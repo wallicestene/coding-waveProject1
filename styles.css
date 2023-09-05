@@ -121,8 +121,13 @@
 .section3-details .section3-right p{
     font-size: small;
 }
+.section3-right{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
 footer{
-    padding: 20px 60px;
+    padding: 40px 60px;
     background-color: rgb(54, 82, 91);
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
