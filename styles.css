@@ -94,6 +94,7 @@
     font-family: 'Poppins', sans-serif;
     margin: 20px 0px;
     height: 100vh;
+    overflow: hidden;
 }
 .section3-top{
     text-align: center;
@@ -112,4 +113,28 @@
 }
 .section3-details .section3-right p{
     font-size: small;
+}
+footer{
+    padding: 30px 60px;
+    background-color: rgb(7, 39, 50);
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-top{
+    text-align: center;
+    
+}
+.footer-top h2{
+    letter-spacing: 2px;
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-bottom .footer-nav{
+    display: flex;
+    align-items: center;
+    gap: 7px;
 }
