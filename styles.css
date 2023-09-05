@@ -54,6 +54,10 @@
 .section2{
     padding: 5px 15px; 
     font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
 }
 
 .trending-container{
@@ -67,7 +71,6 @@
     font-size: smaller;
     color:#e76f51;
     letter-spacing: 1px;
-    margin: 20px 0px;
 }
 .section2 .trending-bottom{
     display: flex;
@@ -92,15 +95,19 @@
 }
 .section3{
     font-family: 'Poppins', sans-serif;
-    margin: 20px 0px;
     height: 100vh;
     overflow: hidden;
+    display: grid;
+    place-items: center;
 }
 .section3-top{
     text-align: center;
     color: #e76f51;
     letter-spacing: 1px;
     font-size: smaller;
+}
+.section3-left img{
+    object-fit: contain;
 }
 .section3 .section3-details{
     display: grid;
@@ -115,14 +122,21 @@
     font-size: small;
 }
 footer{
-    padding: 30px 60px;
-    background-color: rgb(7, 39, 50);
+    padding: 20px 60px;
+    background-color: rgb(54, 82, 91);
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
 }
+footer .footer-topContainer{
+    display: grid;
+    place-items: center;
+}
 .footer-top{
     text-align: center;
-    
+    width: 50%;
+}
+.footer-top p{
+    font-size: small;
 }
 .footer-top h2{
     letter-spacing: 2px;
@@ -132,9 +146,12 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    font-size: x-small;
+    margin-top: 20px;
 }
 .footer-bottom .footer-nav{
     display: flex;
     align-items: center;
     gap: 7px;
+    
 }
