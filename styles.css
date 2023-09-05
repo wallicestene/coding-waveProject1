@@ -90,3 +90,26 @@
     color: #b7b7a4;
     font-size: smaller;
 }
+.section3{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0px;
+    height: 100vh;
+}
+.section3-top{
+    text-align: center;
+    color: #e76f51;
+    letter-spacing: 1px;
+    font-size: smaller;
+}
+.section3 .section3-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.section3-details .section3-right h2{
+    color: #e9c46a;
+    margin: 10px 0px;
+}
+.section3-details .section3-right p{
+    font-size: small;
+}
