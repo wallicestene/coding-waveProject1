@@ -48,3 +48,35 @@
     color: #FFFFFF;
     font-weight: 500;
 }
+.section2{
+    padding: 5px 15px;
+}
+.trending-container{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.section2 .trending-top{
+    text-align: center;
+}
+.section2 .trending-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.section2 .trending-bottom .trending-image{
+    height: 100%;
+    width: 150px;
+    object-fit: contain;
+}
+.section2 .trending-bottom .trending-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.trending-bottom .trending-details .details p{
+    color: #b7b7a4;
+}
