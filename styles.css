@@ -52,7 +52,7 @@ body::-webkit-scrollbar{
     text-decoration: none;
 }
 .section2{
-    padding: 5px 15px; 
+    padding: 15px; 
     font-family: 'Poppins', sans-serif;
     height: 100vh;
     display: grid;
@@ -75,6 +75,7 @@ body::-webkit-scrollbar{
 .section2 .trending-bottom{
     display: flex;
     flex-direction: column;
+    padding: 6px;
     
 }
 .section2 .trending-bottom .trending-image{
@@ -125,6 +126,7 @@ body::-webkit-scrollbar{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    padding:0 10px;
 }
 footer{
     padding: 40px 60px;
